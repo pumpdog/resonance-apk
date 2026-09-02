@@ -2,7 +2,7 @@
 
 # Resonance
 
-**A music player for Android — your local library, internet radio, and your own online music in one place.**
+**A music player for Android — your own library, internet radio, and your streaming accounts in one place.**
 
 [![Latest release](https://img.shields.io/github/v/release/pumpdog/resonance-apk?label=latest&color=74B495)](https://github.com/pumpdog/resonance-apk/releases/latest)
 [![Downloads](https://img.shields.io/github/downloads/pumpdog/resonance-apk/total?color=74B495)](https://github.com/pumpdog/resonance-apk/releases)
@@ -14,36 +14,31 @@
 
 ## What it is
 
-Resonance plays the music already on your phone, streams internet radio, and — once you
-sign in with your own account — gives you your online library, search, charts and
-recommendations. One player, one queue, one place.
+Resonance is a player. It plays the audio files already stored on your phone, streams public
+internet radio, and — if you choose to connect an account you already hold elsewhere — lets you
+browse and play that library through the same queue and the same controls.
 
-It is built for people who keep their own files and do not want a subscription to press play.
+It hosts nothing, distributes nothing, and ships with no content of its own.
 
 ## Features
 
 **Playback**
 - Gapless playback, or a soft crossfade between tracks
-- Survives network drops: a stalled stream resumes from the same position instead of skipping
-- Keeps playing with the screen off
-- Sleep timer with a gentle fade-out
-- Built-in equalizer: frequency bands, bass boost, virtualizer
+- Resilient streaming: a stalled connection resumes from the same position instead of skipping
+- Background playback with the screen off
+- Sleep timer with a gradual fade-out
+- Equalizer: frequency bands, bass boost, virtualizer
 - Audio visualizer with several styles and palettes
 
 **Library**
-- Scans your device, with per-folder control over what gets picked up
+- Scans your device, with per-folder control over what is picked up
 - Playlists, favourites, recently played, most played
-- Search across the device and online at once
-- Swipe a track to delete it from the device
-
-**Online**
-- Your own music, search, charts, recommendations
-- Music of friends and groups
-- Download for offline listening, with a configurable cache limit
+- Search across your device and connected sources at once
+- Swipe a track to remove it from your device
 
 **Interface**
 - Light and dark themes, adjustable text size
-- Full-screen player with a floating mini-player capsule
+- Full-screen player with a floating mini-player
 - Custom player background
 - Russian interface
 
@@ -57,25 +52,51 @@ It is built for people who keep their own files and do not want a subscription t
 
 ## Updating
 
-The app updates itself. Open **Настройки → О приложении → Обновление → Проверить** —
-it checks this repository, and installs the new version if there is one.
-
-You can also just download the newer `.apk` and install it over the old one.
+The app can update itself: **Настройки → О приложении → Обновление → Проверить**. It reads the
+releases page of this repository and installs a newer build if one exists. You can also download
+the `.apk` and install it over the previous version.
 
 ## About this repository
 
-This repository hosts **builds only**. The source code of Resonance is closed and is not
-published here.
+This repository hosts **compiled builds only**. The source code of Resonance is proprietary and
+is not published here.
 
-Issues and questions are welcome in [Issues](https://github.com/pumpdog/resonance-apk/issues).
+---
 
-## Notes
+## Legal
 
-Resonance is an independent player. It is not affiliated with, endorsed by, or connected to
-any music service. Signing in uses your own account and your own library — the app stores your
-session on your device and sends it nowhere else.
+**No affiliation.** Resonance is an independent, unaffiliated application. It is not developed,
+endorsed, sponsored, certified or supported by any music service, platform or rights holder. No
+third-party names, trademarks, logos or branding are used in this project, and none should be
+inferred from it.
 
-You are responsible for how you use the content you play or download.
+**No content.** This project neither hosts, stores, distributes, mirrors nor provides access to
+any audio content. No media is bundled with the application or with any release published here.
+
+**Your account, your device.** Where Resonance connects to an external service, it does so with
+credentials you supply for an account you already hold. Your session is stored locally on your
+device and in the app's private storage. It is not transmitted to the developer, and this project
+operates no server that receives it. The developer has no access to your account or your data.
+
+**Your responsibility.** You alone are responsible for ensuring that your use of Resonance
+complies with the terms of service of any platform you connect to, with your local law, and with
+the rights attaching to any content you play, cache or download. If a platform's terms do not
+permit third-party clients, do not connect it. Use of this software for infringement is not
+permitted and is not the purpose for which it is published.
+
+**No warranty.** The software is provided "as is", without warranty of any kind, express or
+implied, including but not limited to the warranties of merchantability, fitness for a particular
+purpose and non-infringement. To the maximum extent permitted by applicable law, the developer
+shall not be liable for any claim, damages, data loss or other liability arising from the use of
+this software.
+
+**Rights holders.** If you hold rights that you believe are affected by anything published in
+this repository, open an [issue](https://github.com/pumpdog/resonance-apk/issues) or contact the
+developer, and the material in question will be reviewed and, where warranted, removed promptly.
+
+**Licence.** Resonance is proprietary software. Builds published here are provided for personal
+use only. Redistribution, resale, decompilation, reverse engineering and modification are not
+permitted except where such restriction is void under applicable law.
 
 ---
 
