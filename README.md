@@ -37,7 +37,9 @@ It hosts nothing, distributes nothing, and ships with no content of its own.
 - Swipe a track to remove it from your device
 
 **Interface**
-- Light and dark themes, adjustable text size
+- Light and dark themes — the player follows the theme too
+- Interface language: Russian or English
+- Adjustable text size
 - Full-screen player with a floating mini-player
 - Custom player background
 - Russian interface
